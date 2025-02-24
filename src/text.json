@@ -1,0 +1,8 @@
+{
+  "h4": "The Products App project is an app that uses React and Vite.",
+  "p1": "The application receives data from the API and displays a list of products in the form of cards. It also allows users to filter products by category, and add products to the Cart.",
+  "p2": "I use Fetch for APIs, React hooks, SASS/SCSS for styling, and Git for repository creation. For layout, I use Flexbox/Grid, BEM methodology for classes, and a responsive layout (mobile-first approach). The Zustand state manager is used to control state in this application.",
+  "p3": "In addition, I use TypeScript, add a loader when loading data, add error handling, implement pagination with a \"load more\" button, and add simple animations with framer motion and transitions.",
+  "p4": "As a bonus, I've added a shopping Cart where you can see the products you've added, and simulated Checkout with order information and clearing the Cart after purchase.",
+  "p5": "Feel free to contact me to ask any questions."
+}
