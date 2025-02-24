@@ -1,0 +1,43 @@
+// @import "variables";
+@use "../variables" as *;
+// Modal Styles
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: $modal-shadow-color;
+  z-index: 1000;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 32rem;
+  background-color: $bg-color;
+  box-shadow: 0 4px 6px -1px $shadow-color, 0 2px 4px -1px $shadow-color;
+  border-radius: $border-radius;
+  padding: 1rem;
+
+  &__close-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+
+    &__svg {
+      width: 1rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      fill: $close-icon-color;
+      transition: fill 0.2s;
+
+      &:hover {
+        fill: $text-color;
+      }
+    }
+  }
+}

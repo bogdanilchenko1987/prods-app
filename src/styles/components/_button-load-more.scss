@@ -1,0 +1,17 @@
+// @import "variables";
+@use "../variables" as *;
+// Button Styles
+.button-load-more {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: $primary-color;
+  color: $bg-color;
+  border-radius: $border-radius;
+  border: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+}

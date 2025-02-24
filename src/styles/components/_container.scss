@@ -1,0 +1,12 @@
+// @import "variables";
+@use "../variables" as *;
+// Container Styles
+.container {
+  background-color: $bg-color;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

@@ -1,0 +1,13 @@
+// @import "variables";
+@use "../variables" as *;
+// MainHead Styles
+.heading {
+  font-size: 1.5rem;
+  font-weight: $font-bold;
+  color: #1f2937;
+  margin-bottom: 4rem;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}

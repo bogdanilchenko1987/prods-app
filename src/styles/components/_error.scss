@@ -1,0 +1,10 @@
+// @import "variables";
+@use "../variables" as *;
+// Error Styles
+.error {
+  color: $error-color;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: $border-radius;
+  text-align: center;
+}

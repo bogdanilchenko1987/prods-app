@@ -1,0 +1,20 @@
+// MainWrapper Styles
+.wrapper {
+  text-align: center;
+  padding-top: 4rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  .wrapper__inner {
+    padding: 1rem;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      max-width: 768px;
+    }
+
+    @media (min-width: 1024px) {
+      max-width: 1024px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// @import "variables";
+@use "../variables" as *;
+// Footer Styles
+.footer {
+  margin-top: auto;
+  text-align: center;
+  color: $text-color;
+  padding: 1.25rem;
+  border-top: 1px solid $text-color;
+}
