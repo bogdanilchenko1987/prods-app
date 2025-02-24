@@ -1,9 +1,8 @@
-import React from "react";
 import useStore from "../store";
 import ButtonLoadMore from "./ButtonLoadMore";
 import CardItem from "./CardItem";
 
-const CardsList: React.FC = () => {
+export default function CardsList() {
   const { products, category, currentPage, itemsPerPage } = useStore();
 
   const filteredProducts = category
@@ -27,6 +26,4 @@ const CardsList: React.FC = () => {
       {showButtonLoadmore && <ButtonLoadMore />}
     </>
   );
-};
-
-export default CardsList;
+}
