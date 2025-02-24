@@ -28,4 +28,4 @@ npm run dev
 
 ## About the project
 
-Click "My Store" to learn about this project!
+Please click on "My Store" to learn about this project!
