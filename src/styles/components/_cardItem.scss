@@ -1,5 +1,4 @@
-// @import "variables";
-@use "../variables" as *;
+@use '../variables' as *;
 // CardItem Styles
 .card-item {
   background-color: $bg-color;
@@ -7,8 +6,7 @@
   flex-direction: column;
   border-radius: $border-radius;
   overflow: hidden;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7),
-    0 4px 6px -2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.7);
 
   &__container {
     width: 100%;

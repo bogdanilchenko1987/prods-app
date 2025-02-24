@@ -1,5 +1,4 @@
-// @import "variables";
-@use "../variables" as *;
+@use '../variables' as *;
 // Error Styles
 .error {
   color: $error-color;
